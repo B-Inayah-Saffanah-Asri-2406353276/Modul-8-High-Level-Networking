@@ -1,7 +1,7 @@
 [package]
 name = "grpc-tutorial"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [[bin]]
 name = "grpc-server"
@@ -15,6 +15,7 @@ path = "src/grpc_client.rs"
 tonic = "0.7"
 prost = "0.10"
 tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1"
 
 [build-dependencies]
 tonic-build = "0.7"
